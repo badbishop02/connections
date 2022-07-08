@@ -3,6 +3,7 @@ import { PostCard, Categories, PostWidget } from '../components';
 //importing getPosts from index.js in service.
 import { getPosts } from '../services';
 // use the posts as props to use the fetched data.
+import Link from 'next/link';
 
 import { FeaturedPosts } from '../sections';
 

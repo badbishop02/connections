@@ -2,7 +2,7 @@ import React from "react";
 
 function Modal({ setOpenModal }) {
   return (
-    <div className="w-full h-full bg-gray-900 bg-opacity-80 top-0 fixed sticky-0">
+    <div className="w-full h-full min-h-screen bg-gray-900 bg-opacity-80 top-0 fixed sticky-0">
       <div className="justify-center items-center">
         <div className="justify-top items-top titleCloseBtn">
           <button className=""
